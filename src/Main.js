@@ -43,10 +43,6 @@ import Footer from "./landingPageComponents/footer";
 // - buttonText: One or two words that relate to the call to action of this site. E.g. request invite or subsribe or start.
 import HeroApp from "./landingPageComponents/heroApp";
 
-// the hardcoded expectation is that the text json file will be here.
-// all components are passed this object so that they have access to the text content of the site
-import text from "assets/text/text.json";
-
 // HeroStandard is a Hero component for pages that do not require a sign up box. It goes at the top of the page. It shows a visual image, headline and a paragraph of descriptive text
 // Type: Dark
 // Inputs:
@@ -55,6 +51,10 @@ import text from "assets/text/text.json";
 // - screenMockUpSrcWidth1600pxHeight1400px: The src of an image with width 1600px and height: 1400px. This will be shown on the right hand side of the page
 // - imageAltTag: Image alt for the image, should be a variantion of "4K photo shoot hero image of product being used in real life"
 import HeroStandard from "./landingPageComponents/heroStandard";
+
+// the hardcoded expectation is that the text json file will be here.
+// all components are passed this object so that they have access to the text content of the site
+import text from "assets/text/text.json";
 
 // this page is a container for vertically scrolling standard websites.
 // the layout rules are as follows:
@@ -72,6 +72,9 @@ import HeroStandard from "./landingPageComponents/heroStandard";
 // - All text is generated later and contained in the text.json file
 // - You must use descriptive text placeholders (e.g. text.Key_Benefit_1_Headline_Text_Ten_Words) to show which content is required and include the target length of the content in the name
 // - Image alt tags should generally include the words 4K photo shoot
+
+// custom imports go here
+// - Importantly, all custom components will end up in ./landingPageComponents/ so all custom imports should assume the file is located there
 
 export default function App() {
   return (
