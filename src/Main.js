@@ -1,7 +1,7 @@
 // React imports
 
 // Project imports
-import Gradient from "./backgroundGradient";
+import Gradient from "./landingPageComponents/backgroundGradient";
 
 // images imports
 // always assume the images will be in ./assets/images
@@ -13,22 +13,22 @@ import aspirationalAppImage from "./assets/images/aspirationalAppImage.png";
 // Inputs:
 // - imageAltTag: A descriptive image tag of the format: 4K photo shoot of product being used in ADD SCENARIO.
 // - imageSrcWidth1600pxHeight900px: The image src following createReactApp style as per the template above.
-import FullBleedImage from "./fullBleedImage";
+import FullBleedImage from "./landingPageComponents/fullBleedImage";
 
 // Headline is a Light component and shows a title and paragraph of descriptive text
 // Type: Light
 // Inputs:
 // - headline: The headline text.
 // - subText: A paragraph of descriptive text related to the headline.
-import Headline from "./headline";
+import Headline from "./landingPageComponents/headline";
 
 // An import for a trailing signup box
 // Type: Dark
-import TrailingSignup from "./trailingSignup";
+import TrailingSignup from "./landingPageComponents/trailingSignup";
 
 // Footer is used for all sites
 // Type: Light
-import Footer from "./footer";
+import Footer from "./landingPageComponents/footer";
 
 // HeroApp is a Hero component that for landing pages, goes at the top of the page. It shows a visual image, a headline and a signup box
 // Type: Dark
@@ -41,7 +41,7 @@ import Footer from "./footer";
 // - screenMockUpSrc: The src of an image with width 290px and height: 624px. This will be shown embedded in the iphone mockup.
 // - imageAltTag: Image alt for the image, should be a variantion of "4K photo shoot hero image of product being used in real life"
 // - buttonText: One or two words that relate to the call to action of this site. E.g. request invite or subsribe or start.
-import HeroApp from "./heroApp";
+import HeroApp from "./landingPageComponents/heroApp";
 
 // the hardcoded expectation is that the text json file will be here.
 // all components are passed this object so that they have access to the text content of the site
@@ -54,7 +54,7 @@ import text from "assets/text/text.json";
 // - subHeading_30to50Words: 30-50 words that act as a page description.
 // - screenMockUpSrcWidth1600pxHeight1400px: The src of an image with width 1600px and height: 1400px. This will be shown on the right hand side of the page
 // - imageAltTag: Image alt for the image, should be a variantion of "4K photo shoot hero image of product being used in real life"
-import HeroStandard from "heroStandard";
+import HeroStandard from "./landingPageComponents/heroStandard";
 
 // this page is a container for vertically scrolling standard websites.
 // the layout rules are as follows:
