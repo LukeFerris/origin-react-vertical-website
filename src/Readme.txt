@@ -14,6 +14,12 @@ heroApp.js
 - It also contains an email sign up box and submit button
 - Can be used without modification.
 
+heroStandard.js
+- A section of the page which contains a hero image for the product or service
+- Ideal for the top of bespoke webpages as an introduction to the service.
+- It contains a headline and description text for the product
+- Can be used without modification.
+
 headline.js 
 - A descriptive headline and sub text that are both centered in the middle of the page
 - Can be used to describe products, features or the ethos or details of the business
@@ -25,7 +31,7 @@ fullBleedImage.js
 Easy to modify Components (templates):
 
 customSection.js
-- TemplateFilePath: landingPageComponents/customSection.js.
+- TemplateFilePath: src/landingPageComponents/customSection.js.
 - A template file for when none of the other sections fit the requirement
 - Can be customised with any HTML or javascript content required.
 - Has access to MaterialUI components V5 using emotion for styling (so not makestyles), React components and any other packages available as part of CreateReactApp

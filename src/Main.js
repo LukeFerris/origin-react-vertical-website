@@ -65,7 +65,7 @@ import HeroStandard from "./landingPageComponents/heroStandard";
 // - Components should alternative between dark and light to give the right aesthetic.
 // - The page should finish with an Origin.React.LandingPage.Footer component
 // - Pay very close attention to the case of custom component filenames. Use the casing found in the package specification.
-// - E.g. if the package specification shows the file name as Testimonials.js then make sure you important from Testimonials not testimonials (note the change in first letter case)
+// - E.g. if the package specification shows the file name as Testimonials.js then make sure you import from Testimonials not testimonials (note the change in first letter case)
 // - Content for inputs to custom components should be constructed on this page, with only strings being pulled from text.json
 
 // the content rules are as follows:
