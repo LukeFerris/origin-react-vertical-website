@@ -11,15 +11,15 @@ import aspirationalAppImage from "./assets/images/aspirationalAppImage.png";
 // FullBleedImage is a Dark component and shows an image that spans the entire width of the page
 // Type: Dark
 // Inputs:
-// - imageAltTag: A descriptive image tag of the format: 4K photo shoot of product being used in ADD SCENARIO.
+// - imageAltTag: A highly descriptive image tag of between 10-30 words.
 // - imageSrcWidth1600pxHeight900px: The image src following createReactApp style as per the template above.
 import FullBleedImage from "./landingPageComponents/fullBleedImage";
 
 // Headline is a Light component and shows a title and paragraph of descriptive text
 // Type: Light
 // Inputs:
-// - headline: The headline text.
-// - subText: A paragraph of descriptive text related to the headline.
+// - headline: The headline text 3-5 words.
+// - subText: A paragraph of descriptive text related to the headline between 15-30 words
 import Headline from "./landingPageComponents/headline";
 
 // An import for a trailing signup box
@@ -39,7 +39,7 @@ import Footer from "./landingPageComponents/footer";
 // - keyFeature2_5to15Words: 10-15 words on the second key feature of the product to highlight
 // - keyFeature3_5to15Words: 10-15 words on the third key feature of the product to highlight
 // - screenMockUpSrc: The src of an image with width 290px and height: 624px. This will be shown embedded in the iphone mockup.
-// - imageAltTag: Image alt for the image, should be a variantion of "4K photo shoot hero image of product being used in real life"
+// - imageAltTag: A highly descriptive image tag of between 10-30 words that describe an aspirational image related to the product/service
 // - buttonText: One or two words that relate to the call to action of this site. E.g. request invite or subsribe or start.
 import HeroApp from "./landingPageComponents/heroApp";
 
@@ -70,7 +70,10 @@ import text from "assets/text/text.json";
 
 // the content rules are as follows:
 // - All text is generated later and contained in the text.json file
-// - You must use descriptive text placeholders (e.g. text.Key_Benefit_1_Headline_Text_Ten_Words) to show which content is required and include the target length of the content in the name
+// - You must use descriptive text placeholders to show which content is required and include the target length of the content in the name
+// - It is vital that the placeholders you generate are highly descriptive and incorporate the detailed purpose of the image and the word count range
+// - e.g. text.An_Alt_Tag_For_A_4K_Aspirational_Image_Of_A_Hotel_Room_15_30_Words.
+// - All strings should be replaced by text placeholders.
 // - Image alt tags should generally include the words 4K photo shoot
 
 // custom imports go here
@@ -102,17 +105,17 @@ export default function App() {
       {/* First Dark section goes here */}
       <FullBleedImage
         imageSrcWidth1600pxHeight900px={productBeingUsedInRealLife}
-        imageAltTag="4K photo shoot of product being used in real life"
+        imageAltTag={text.A_long_descriptive_alt_tag_for_the_image_10_30_words}
       />
       {/* End first Dark section */}
       {/* Dark and light sections continue here as required */}
       <Headline
-        headline={text.Key_Benefit_2_Headline_Text}
-        subText={text.Key_Benefit_2_Detailed_Paragraph}
+        headline={text.Text_headline_3_to_5_words}
+        subText={text.Text_paragraph_of_between_15_and_30_words}
       />
       {/* End Additional Sections */}
       {/* Trailing signup is only relevant on landing pages */}
-      <TrailingSignup buttonText="1-2 words only e.g. Request Invite" />
+      <TrailingSignup buttonText={text.Button_text_1_to_2_words_only} />
 
       {/* We always include the footer */}
       <Footer />
