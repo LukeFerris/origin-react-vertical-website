@@ -30,7 +30,7 @@ import TrailingSignup from "./landingPageComponents/trailingSignup";
 // Type: Light
 import Footer from "./landingPageComponents/footer";
 
-// HeroApp is a Hero component that for landing pages, goes at the top of the page. It shows a visual image, a headline and a signup box
+// HeroApp is a Landing Page Hero component that goes at the top of the page whenever a sign up box is required on a landing page. It shows a visual image, a headline and a signup box
 // Type: Dark
 // Inputs:
 // - mainHeading_3to5Words: 1-4 words
