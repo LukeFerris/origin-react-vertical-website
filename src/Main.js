@@ -78,6 +78,7 @@ import text from "assets/text/text.json";
 
 // custom imports go here
 // - Importantly, all custom components will end up in ./landingPageComponents/ so all custom imports should assume the file is located there
+// - In comments above the import you should show example usage taking special note of the expected signature from the specification: [PACKAGE_SPECIFICATION]
 
 export default function App() {
   return (
