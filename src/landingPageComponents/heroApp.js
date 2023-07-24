@@ -5,12 +5,12 @@ import CheckedListItem from "./checkedListItem";
 import IPhoneMockup from "./iphoneMockup";
 
 export default function HeroApp({
-  mainHeading_3to5Words,
-  subHeading_15to20Words,
-  keyFeature1_5to15Words,
-  keyFeature2_5to15Words,
-  keyFeature3_5to15Words,
-  screenMockUpSrcWidth290pxHeight624px,
+  mainHeading,
+  subHeading,
+  keyFeature1,
+  keyFeature2,
+  keyFeature3,
+  screenMockUpSrc,
   imageAltTag,
   buttonText,
 }) {
@@ -52,15 +52,15 @@ export default function HeroApp({
             },
           }}
         >
-          {mainHeading_3to5Words}
+          {mainHeading}
         </Typography>
-        <Typography variant="h2">{subHeading_15to20Words}</Typography>
+        <Typography variant="h2">{subHeading}</Typography>
 
         <SignupBox isDark={false} buttonText={buttonText} />
         <List dense={true} style={{ marginTop: "15px" }}>
-          <CheckedListItem checkListItemText={keyFeature1_5to15Words} />
-          <CheckedListItem checkListItemText={keyFeature2_5to15Words} />
-          <CheckedListItem checkListItemText={keyFeature3_5to15Words} />
+          <CheckedListItem checkListItemText={keyFeature1} />
+          <CheckedListItem checkListItemText={keyFeature2} />
+          <CheckedListItem checkListItemText={keyFeature3} />
         </List>
       </Box>
       <Box
@@ -71,7 +71,7 @@ export default function HeroApp({
         }}
       ></Box>
       <IPhoneMockup
-        screenMockUpSrc={screenMockUpSrcWidth290pxHeight624px}
+        screenMockUpSrc={screenMockUpSrc}
         imageAltTag={imageAltTag}
       />
       <Box

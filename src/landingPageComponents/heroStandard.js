@@ -2,9 +2,9 @@
 import { Box, List, Typography } from "@mui/material";
 
 export default function HeroStandard({
-  mainHeading_3_Words,
-  subHeading_30to50Words,
-  screenMockUpSrcWidth1600pxHeight1400px,
+  mainHeading,
+  subHeading,
+  screenMockUpSrc,
   imageAltTag,
 }) {
   return (
@@ -48,14 +48,14 @@ export default function HeroStandard({
               },
             }}
           >
-            {mainHeading_3_Words}
+            {mainHeading}
           </Typography>
-          <Typography variant="h2">{subHeading_30to50Words}</Typography>
+          <Typography variant="h2">{subHeading}</Typography>
         </Box>
       </div>
       <div style={{ flexBasis: "50%" }}>
         <img
-          src={screenMockUpSrcWidth1600pxHeight1400px}
+          src={screenMockUpSrc}
           width="100%"
           height="100%"
           alt={imageAltTag}
