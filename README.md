@@ -8,7 +8,7 @@
 // HeroStandard: A hero image, headline text and tag line. Perfect as an introduction to non landing page sites where no signup box is required.
 // Fullbleedimage: A full page width image with no labelling, perfect for bringing products or features to life.
 // Headline: A headline and then a detailed text paragraph in one component.
-// TrailingSignup: An end of page signup box which should be included only when a signup box has been requested.
-// Custom: Customer components can be added to include other requirements. Custom components should be based on custom customSection.js, contain a centered header typography of variant=h2 and take as inputs any content required (e.g. images and text)
+// TrailingSignup: An end of page signup box which should be included only if HeroApp has also been included.
+// Custom: Customer components can be added to include other requirements. Custom components should be based on the custom template found at: src/landingPageComponents/customSection.js, contain a centered header typography of variant=h2 and take as inputs any content required (e.g. images and text)
 // Layout rules:
 // Never use two components of the same type next to each other on the page (e.g. two Headline components)
