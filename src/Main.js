@@ -21,7 +21,7 @@ import Gradient from "./landingPageComponents/backgroundGradient";
 // images imports
 // always assume the images will be in ./assets/images
 // An example is:
-import aspirationalAppImage from "./assets/images/aspirationalAppImage.png";
+import horseStableImage from "./assets/images/horseStableImage.png";
 
 // FullBleedImage
 // When you use this component, include a comment directly above it indicating the image dimensions should be 1600px by 900px
@@ -81,6 +81,19 @@ export default function App() {
       <Gradient />
 
       {/* Add content sections here */}
+
+      {/* An example of how your final additions should look, including details of text length */}
+
+      {/* FullBleedImage showing the unique horse riding stables in our hotel */}
+      {/* imageAltTag: A highly descriptive image tag of between 10-30 words */}
+      {/* imageSrc: The image src included above using createReactApp style */}
+      <FullBleedImage
+        imageAltTag={text.uniqueHorseStablesImageAltTag}
+        imageSrc={horseStableImage}
+      />
+
+      {/* End example */}
+
       {/* End content sections here */}
 
       {/* All pages have a Footer */}
