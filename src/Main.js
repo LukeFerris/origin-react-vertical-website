@@ -4,9 +4,9 @@
 // The parameters required for custom components are included in the specification.
 // Keep both the comments and the imports for all components that you use
 // Any parameters and inputs that require text strings should be replaced with a placeholder of the following format: text.APlaceholderName. These placeholders will be replaced with text content later
-// For each text parameter you should leave a comment above the component describing what type of content should be generated for the text and it's required length
+// For each text parameter you should leave a comment above the component describing what type of content should be generated for the text and it's required length e.g. // text.APlaceholderName: An introduction to feature X of 10-30 words in length
 // Any parameters and inputs that require images should be replaced with an image import using the standard createReactApp method. An exammple is shown below.
-// For images, it is important that the dimensions of the image (if specified in the comments below) is included as a comment above the component in the content
+// For images, it is important that the dimensions of the image (if specified for the parameter in the content below) is included as a comment above the component in the content e.g. // aspirationalAppImage: Dimensions width: 200px, height: 400px
 // This is so that the image generation process can pick this information up later.
 
 // React imports
