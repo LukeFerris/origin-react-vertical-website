@@ -1,12 +1,28 @@
-// How to write this page
+// Rules:
 // Adhere to the specification closely - paying attention to the filenames, names and parameters of any custom components.
 // The parameters required for each non-custom compenent are specified in comments above the component's import statement below
 // The parameters required for custom components are included in the specification.
 // Any parameters and inputs that require text strings should be replaced with a placeholder of the following format: text.APlaceholderName. These placeholders will be replaced with text content later
 // For each text parameter you should leave a comment above the component describing the required content and it's required length e.g. // - imageAltTag: A highly descriptive image tag of between 10-30 words.
-// Any parameters and inputs that require images should be replaced with an image import using the standard createReactApp method. An exammple is shown below.
-// For images, it is important that the dimensions of the image (if specified for the parameter in the content below) is included as a comment above the component in the content e.g. // aspirationalAppImage: Dimensions width: 200px, height: 400px
+// The definitions for text length can be found above the import statement of the associated component.
+// Any parameters that require images should be replaced with an image import using the standard createReactApp method.
+// For images, it is important that the dimensions of the image (if specified for the parameter in the content below) is included as a comment above the component in the content.
 // This is so that the image generation process can pick this information up later.
+// An example usage of a component (to be removed) is as follows - note the inclusion of the important comments above the component:
+
+{
+  /* FullBleedImage showing the unique horse riding stables in our hotel */
+}
+{
+  /* imageAltTag: A highly descriptive image tag of between 10-30 words */
+}
+{
+  /* imageSrc: The image src included above using createReactApp style with dimensions Width: 200px, Height: 640px */
+}
+<FullBleedImage
+  imageAltTag={text.uniqueHorseStablesImageAltTag}
+  imageSrc={horseStableImage}
+/>;
 
 // React imports
 
