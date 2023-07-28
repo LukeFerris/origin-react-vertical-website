@@ -86,7 +86,7 @@ export default function App() {
 
       {/* FullBleedImage showing the unique horse riding stables in our hotel */}
       {/* imageAltTag: A highly descriptive image tag of between 10-30 words */}
-      {/* imageSrc: The image src included above using createReactApp style */}
+      {/* imageSrc: The image src included above using createReactApp style with dimensions Width: 200px, Height: 640px */}
       <FullBleedImage
         imageAltTag={text.uniqueHorseStablesImageAltTag}
         imageSrc={horseStableImage}
