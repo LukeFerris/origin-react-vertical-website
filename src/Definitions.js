@@ -5,7 +5,7 @@ import Gradient from "./landingPageComponents/backgroundGradient";
 // FullBleedImage
 // Parameters:
 // - imageAltTag: A highly descriptive image tag of between 10-30 words.
-// - imageSrc: The image src following createReactApp style as per the examples above.
+// - imageSrc: The image src of an image with dimensions width: 1600px height: 1400px
 import FullBleedImage from "./landingPageComponents/fullBleedImage";
 
 // Headline
@@ -20,7 +20,8 @@ import TrailingSignup from "./landingPageComponents/trailingSignup";
 
 // Footer
 // Protected
-// Parameters: None
+// Parameters:
+// - buttonText: 1-3 word call to action
 import Footer from "./landingPageComponents/footer";
 
 // HeroApp
@@ -30,7 +31,7 @@ import Footer from "./landingPageComponents/footer";
 // - keyFeature1: 10-15 words on the first key feature of the product to highlight
 // - keyFeature2: 10-15 words on the second key feature of the product to highlight
 // - keyFeature3: 10-15 words on the third key feature of the product to highlight
-// - screenMockUpSrc: The src of an image with width 290px and height: 624px. This will be shown embedded in the iphone mockup.
+// - screenMockUpSrc: The src of an image with width 290px and height: 624px.
 // - imageAltTag: A highly descriptive image tag of between 10-30 words that describe an aspirational image related to the product/service
 // - buttonText: One or two words that relate to the call to action of this site. E.g. request invite or subsribe or start.
 import HeroApp from "./landingPageComponents/heroApp";
