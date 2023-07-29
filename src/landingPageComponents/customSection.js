@@ -10,6 +10,7 @@
 // STYLING:
 // - A header that explains the section should use typography variant h3
 // - Normal text content should use typography variant h2
+// - It is very important that you assume only the input parameters shown in the specification. You may not add or assume any others whilst writing the component.
 
 // You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
 import { Typography } from "@mui/material";
