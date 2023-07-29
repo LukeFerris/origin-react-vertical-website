@@ -6,6 +6,7 @@
 // - Add a detailed specification of what you've built in the comment directly above the function name
 // - Make sure you add any required headings or labels to ensure the section is properly understood by the user
 // - Do not change the styling in the container div below.
+// - Ensure that the logic you write is consistent with the input parameters chosen in the specification. E.g. make sure that array inputs are dealt with as arrays and single objects are dealt with as single objects.
 
 // STYLING:
 // - A header that explains the section should use typography variant h3
