@@ -5,7 +5,7 @@ import Gradient from "./landingPageComponents/backgroundGradient";
 // FullBleedImage
 // Parameters:
 // - imageAltTag: A highly descriptive image tag of between 10-30 words.
-// - imageSrc: The image src of an image with dimensions width: 1600px height: 1400px
+// - imageSrc: The image src of an image with dimensions width: 1600px height: 1200px
 import FullBleedImage from "./landingPageComponents/fullBleedImage";
 
 // Headline
@@ -15,13 +15,13 @@ import FullBleedImage from "./landingPageComponents/fullBleedImage";
 import Headline from "./landingPageComponents/headline";
 
 // TrailingSignup
-// Parameters: None
+// Parameters:
+// - buttonText: 1-3 word call to action
 import TrailingSignup from "./landingPageComponents/trailingSignup";
 
 // Footer
 // Protected
-// Parameters:
-// - buttonText: 1-3 word call to action
+// Parameters: None
 import Footer from "./landingPageComponents/footer";
 
 // HeroApp
