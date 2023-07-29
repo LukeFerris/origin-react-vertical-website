@@ -38,7 +38,8 @@ export default function App() {
       {/* All pages have Gradient */}
       <Gradient />
 
-      {/* Add content sections here */}
+      {/* Add chosen components here */}
+      {/* Remember: Each component should have a comment for each parameter */}
       {/* End content sections here */}
 
       {/* All pages have a Footer */}
