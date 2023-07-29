@@ -1,16 +1,16 @@
 // Rules:
 // Adhere to the specification closely - paying attention to the filenames, names and parameters of any custom components.
-// The parameters required for each non-custom compenent are specified in comments above the component's import statement below
-// The parameters required for custom components are included in the specification.
-// Also, include a comment directly above each component and for each parameter passed to the component. The comment should clearly specify the expected type of the parameter, its constraints or expected range of values (e.g. length of the text or dimensions of the image), and a brief description of what it represents or its role within the component
+// For each component, there should be a comment inserted directly above the usage of the component explaining its purpose in the page.
+// Also, for each parameter a comment should be inserted directly above the usage of the component. The comment should clearly specify any constraints or expected ranges of values (e.g. length of the text or dimensions of the image).
+// The constraints for parameters are shown in the definitions.
+// Including a comment per parameter above each component in the code is vital. Without this, the downstream content generating code will not function.
 
 // React imports
 
 // Project imports
 
 // Gradient
-// Protected
-// Parameters: None
+// Always include this component.
 import Gradient from "./landingPageComponents/backgroundGradient";
 
 // images imports
@@ -18,56 +18,17 @@ import Gradient from "./landingPageComponents/backgroundGradient";
 // An example is:
 import horseStableImage from "./assets/images/horseStableImage.png";
 
-// FullBleedImage
-// When you use this component, include a comment directly above it indicating the image dimensions should be 1600px by 900px
-// Parameters:
-// - imageAltTag: A highly descriptive image tag of between 10-30 words.
-// - imageSrc: The image src following createReactApp style as per the examples above.
-import FullBleedImage from "./landingPageComponents/fullBleedImage";
-
-// Headline
-// Parameters:
-// - headline: The headline text 3-5 words.
-// - subText: A paragraph of descriptive text related to the headline between 15-30 words
-import Headline from "./landingPageComponents/headline";
-
-// TrailingSignup
-// Parameters: None
-import TrailingSignup from "./landingPageComponents/trailingSignup";
-
 // Footer
-// Protected
+// Always include this component
 // Parameters: None
 import Footer from "./landingPageComponents/footer";
 
-// HeroApp
-// When you use this component, include a comment directly above it indicating the image dimensions should be 290px by 624px
-// Parameters:
-// - mainHeading: 1-4 words
-// - subHeading: 10-15 words that act as a product tagline.
-// - keyFeature1: 10-15 words on the first key feature of the product to highlight
-// - keyFeature2: 10-15 words on the second key feature of the product to highlight
-// - keyFeature3: 10-15 words on the third key feature of the product to highlight
-// - screenMockUpSrc: The src of an image with width 290px and height: 624px. This will be shown embedded in the iphone mockup.
-// - imageAltTag: A highly descriptive image tag of between 10-30 words that describe an aspirational image related to the product/service
-// - buttonText: One or two words that relate to the call to action of this site. E.g. request invite or subsribe or start.
-import HeroApp from "./landingPageComponents/heroApp";
-
-// HeroStandard
-// When you use this component, include a comment directly above it indicating the image dimensions should be 1600px by 1400px
-// Parameters:
-// - mainHeading: 1-4 words
-// - subHeading: 30-50 words that act as a page description.
-// - screenMockUpSrc: The src of an image with width 1600px and height: 1400px. This will be shown on the right hand side of the page
-// - imageAltTag: Detailed alt text for the image, should contain the keywords "4K photo shoot"
-import HeroStandard from "./landingPageComponents/heroStandard";
-
-// Protected
+// Always include this import
 import text from "assets/text/text.json";
 
 // custom imports go here
 // - Importantly, all custom components will end up in ./landingPageComponents/ so all custom imports should assume the file is located there
-// - In comments above the import you should show example usage taking special note of the expected signature from the specification: [PACKAGE_SPECIFICATION]
+// - In comments above the import you should show example usage taking special note of the expected signature from the specification.
 
 export default function App() {
   return (
@@ -76,19 +37,6 @@ export default function App() {
       <Gradient />
 
       {/* Add content sections here */}
-
-      {/* An example of how your final additions should look, including details of text length */}
-
-      {/* FullBleedImage showing the unique horse riding stables in our hotel */}
-      {/* imageAltTag: A highly descriptive image tag of between 10-30 words */}
-      {/* imageSrc: The image src included above using createReactApp style with dimensions Width: 200px, Height: 640px */}
-      <FullBleedImage
-        imageAltTag={text.uniqueHorseStablesImageAltTag}
-        imageSrc={horseStableImage}
-      />
-
-      {/* End example */}
-
       {/* End content sections here */}
 
       {/* All pages have a Footer */}
