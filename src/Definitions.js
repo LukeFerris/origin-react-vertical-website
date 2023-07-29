@@ -5,7 +5,7 @@ import Gradient from "./landingPageComponents/backgroundGradient";
 // FullBleedImage
 // Parameters:
 // - imageAltTag: A highly descriptive image tag of between 10-30 words.
-// - imageSrc: The image src of an image with dimensions width: 1600px height: 1200px
+// - imageSrc: The image src of an image with dimensions width: 1600px height: 1000px
 import FullBleedImage from "./landingPageComponents/fullBleedImage";
 
 // Headline
