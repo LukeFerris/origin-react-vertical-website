@@ -1,10 +1,5 @@
 // Rules:
 // Adhere to the specification closely - paying attention to the filenames, names and parameters of any custom components.
-// For each component, there should be a comment inserted directly above the usage of the component explaining its purpose in the page.
-// Also, for each parameter a comment should be inserted directly above the usage of the component. The comment should clearly specify any constraints or expected ranges of values (e.g. length of the text or dimensions of the image).
-// The constraints for parameters are shown in the definitions.
-// This should be done for every usage of the componet - so if Headline is used multiple times, the same comments should be inserted above each usage of the Headline component.
-// Including a comment per parameter above each component in the code is vital. Without this, the downstream content generating code will not function.
 // Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName} where placeholderName is a relevant name.
 
 // React imports
@@ -39,7 +34,6 @@ export default function App() {
       <Gradient />
 
       {/* Add chosen components here */}
-      {/* Remember: Each component should have a comment for each parameter */}
       {/* End content sections here */}
 
       {/* All pages have a Footer */}
