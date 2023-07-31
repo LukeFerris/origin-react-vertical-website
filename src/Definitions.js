@@ -34,6 +34,8 @@ import Footer from "./landingPageComponents/footer";
 // - screenMockUpSrc: The src of an image with width 290px and height: 624px.
 // - imageAltTag: A highly descriptive image tag of between 10-30 words that describe an aspirational image related to the product/service
 // - buttonText: One or two words that relate to the call to action of this site. E.g. request invite or subsribe or start.
+// Additional Package Requirements
+// - DeployInput of type: Database.API.PostOnly
 import HeroApp from "./landingPageComponents/heroApp";
 
 // HeroStandard
