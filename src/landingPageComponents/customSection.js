@@ -7,6 +7,8 @@
 // - Make sure you add any required headings or labels to ensure the section is properly understood by the user
 // - Do not change the styling in the container div below.
 // - Ensure that the logic you write is consistent with the input parameters chosen in the specification. E.g. make sure that array inputs are dealt with as arrays and single objects are dealt with as single objects.
+// - Make sure that all input parameters are checked (e.g. that an expected array is an array and that non null inputs are indeed not null)
+// - The component should fail gracefully if there is an input type problem, using defaults or text messages as appropriate.
 // - Any images being included should be assumed to have been imported using the CreateReactApp image import technique in a parent page
 
 // STYLING:
