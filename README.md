@@ -6,7 +6,7 @@
 // Custom components should be functionally self sufficient in that they contain all logic and UI required to function.
 // However any content like images, text and default values should still be passed as input parameters to the new component.
 // The components are:
-// HeroApp: A hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of the page. Requires: A deployInput of type: Database.API.PostOnly and a deployInput of type: PrivateAdminSiteUrl
+// HeroApp: A hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of the page. Requires: A deployInput of type: Database.API.PostOnly and a deployInput of type: Database.Dynamo.Admin.SiteUrl
 // HeroStandard: A hero image, headline text and tag line. Perfect as an introduction to non landing page sites where no signup box is required.
 // Fullbleedimage: A full page width image with no labelling, perfect for bringing products or features to life.
 // Headline: A headline and then a detailed text paragraph in one component.
