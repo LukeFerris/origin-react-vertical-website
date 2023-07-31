@@ -3,8 +3,9 @@
 // It contains a number of components which you can use once or many times on the site as you require.
 // To write a specification, choose which existing components you will use, which custom components (if any) you need to create and which order you will place the components.
 // You should include in this specification a detailed sub specification for each custom component you require including the name of the component, the fileName and any required input parameters such that it can be properly imported
+// Custom components should be logically self sufficient in that they contain all logic, UI and data required to function.
 // The components are:
-// HeroApp: A hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of the page. If this is included a deployInput of type Database.API.PostOnly should be added to ensure we have a database.
+// HeroApp: A hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of the page.
 // HeroStandard: A hero image, headline text and tag line. Perfect as an introduction to non landing page sites where no signup box is required.
 // Fullbleedimage: A full page width image with no labelling, perfect for bringing products or features to life.
 // Headline: A headline and then a detailed text paragraph in one component.
