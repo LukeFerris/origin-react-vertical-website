@@ -7,11 +7,13 @@
 // - Make sure you add any required headings or labels to ensure the section is properly understood by the user
 // - Do not change the styling in the container div below.
 // - Ensure that the logic you write is consistent with the input parameters chosen in the specification. E.g. make sure that array inputs are dealt with as arrays and single objects are dealt with as single objects.
+// - Any images being included should be assumed to have been imported using the CreateReactApp image import technique in a parent page
 
 // STYLING:
 // - A header that explains the section should use typography variant h3
 // - Normal text content should use typography variant h2
 // - It is very important that you assume only the input parameters shown in the specification. You may not add or assume any others whilst writing the component.
+// - CardMedia should not have a fixed height - otherwise they get set too small
 
 // You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
 import { Typography } from "@mui/material";

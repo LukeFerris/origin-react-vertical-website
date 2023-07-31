@@ -1,6 +1,8 @@
 // Rules:
 // Adhere to the specification closely - paying attention to the filenames, names and parameters of any custom components.
 // Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
+// This includes all text strings, including those git which are part of complex objects.
+// Image should be imported using the CreateReactApp approach, an example of which is shown below.
 
 // React imports
 
