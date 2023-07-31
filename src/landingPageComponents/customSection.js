@@ -9,7 +9,7 @@
 // - Ensure that the logic you write is consistent with the input parameters chosen in the specification. E.g. make sure that array inputs are dealt with as arrays and single objects are dealt with as single objects.
 // - Make sure that all input parameters are checked (e.g. that an expected array is an array and that non null inputs are indeed not null)
 // - The component should fail gracefully if there is an input type problem, using defaults or text messages as appropriate.
-// - Any images being included should be assumed to have been imported using the CreateReactApp image import technique in a parent page
+// - Any images being included should be assumed to have been imported using the CreateReactApp image import technique in a parent page and are imported into the component as an input
 
 // STYLING:
 // - A header that explains the section should use typography variant h3
