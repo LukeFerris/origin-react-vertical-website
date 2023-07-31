@@ -1,6 +1,6 @@
 // Rules:
 // Adhere to the specification closely - paying attention to the filenames, names and parameters of any custom components.
-// Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName} where placeholderName is a relevant name.
+// Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
 
 // React imports
 
