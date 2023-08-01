@@ -11,7 +11,7 @@
 // CardMedia components do not have a fixed height - otherwise they get set too small
 // Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
 // Elements do not change size dependent on the content they contain.
-// Any images required are imported using the CreateReactApp standard method of import as shown below.
+// If images are required (not compulsory), they are imported using the CreateReactApp standard method of import.
 // END RULES
 
 // You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
