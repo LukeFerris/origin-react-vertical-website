@@ -1,4 +1,4 @@
-// ASSERTIONS:
+// RULES:
 // All filenames and component names from the specification are correctly included.
 // The file should only contain a single component (App).
 // Any text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
@@ -6,7 +6,7 @@
 // Any images required for this page have been included using the CreateReactApp standard import approach as shown below.
 // We are not attempting to pass any props to custom components
 // We are not attempting to use any components not mentioned in the definitions or new custom components section.
-// END ASSERTIONS
+// END RULES
 
 // React imports
 

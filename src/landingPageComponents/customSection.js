@@ -1,4 +1,4 @@
-// ASSERTIONS:
+// RULES:
 // The component name is the name mentioned in the specification.
 // The component is self contained with no props required.
 // The styling of the original template has not been changed
@@ -10,7 +10,7 @@
 // CardMedia components do not have a fixed height - otherwise they get set too small
 // Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
 // Any images required are imported using the CreateReactApp standard method of import as shown below.
-// END ASSERTIONS
+// END RULES
 
 // You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
 import { Typography } from "@mui/material";
