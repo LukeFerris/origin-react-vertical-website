@@ -1,5 +1,6 @@
 // Rules:
 // Adhere to the specification closely - paying attention to the filenames, names and parameters of any custom components.
+// The file should only contain a single component (App).
 // Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
 // Text placeholders may only be one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
 // This includes all text strings, including those git which are part of complex objects.
