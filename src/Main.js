@@ -4,7 +4,6 @@
 // Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
 // Text placeholders may only be one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
 // This includes all text strings, including those git which are part of complex objects.
-// Image should be imported using the CreateReactApp approach, an example of which is shown below.
 
 // React imports
 
@@ -15,9 +14,11 @@
 import Gradient from "./landingPageComponents/backgroundGradient";
 
 // images imports
-// always assume the images will be in ./assets/images
+// The only way images should be included is using the CreateReactApp approach, an example of which is shown below.
+// Always assume the images will be in ./assets/images
 // An example is:
 import horseStableImage from "./assets/images/horseStableImage.png";
+// They can then be used as sources like this: {horseStableImage}.
 
 // Footer
 // Always include this component
