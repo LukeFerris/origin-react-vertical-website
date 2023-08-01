@@ -5,10 +5,12 @@
 // Content has only been added in the marked areas for javascript and the div marked for new UI content.
 // Text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
 // Text placeholders are only one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
-// There is a typography variant h3 at the top of the UI content you created that acts as a title
+// There is a typography variant h3 at the top of the UI content you created that acts as a title.
+// Elements are not touching each other - they have margin separating them of 15px where required.
 // Standard text content uses typography variant h2
 // CardMedia components do not have a fixed height - otherwise they get set too small
 // Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
+// Elements do not change size dependent on the content they contain.
 // Any images required are imported using the CreateReactApp standard method of import as shown below.
 // END RULES
 
