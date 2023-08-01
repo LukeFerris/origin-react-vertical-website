@@ -2,6 +2,7 @@
 // Any functionality not available using existing components should be implemented as a single, self contained new custom component. This is because we currently have no way for components to safely communicate with each other.
 // Custom components are therefore forbidden from having input props - they must be entirely self sufficient.
 // You should include in this specification a detailed sub specification for each custom component you require of at least three paragraphs per custom components - including the name of the component and the fileName such that it can be properly imported
+// The specification should include all algorithms or logic required to fully implement the component.
 // The existing components are:
 // HeroApp: A hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of the page.
 // HeroStandard: A hero image, headline text and tag line. Perfect as an introduction to non landing page sites where no signup box is required.
