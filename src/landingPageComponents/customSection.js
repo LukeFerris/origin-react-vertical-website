@@ -3,8 +3,7 @@
 // The component is self contained with no props required.
 // The styling of the original template has not been changed
 // Content has only been added in the marked areas for javascript and the div marked for new UI content.
-// Text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
-// Text placeholders are only one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
+// Any text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name. Not allowed, a placeholder with 4 parts: {text.objectname.placeholderName.content}
 // There is a typography variant h3 at the top of the UI content you created that acts as a title.
 // Elements are not touching each other - they have margin separating them of 15px where required.
 // Standard text content uses typography variant h2
