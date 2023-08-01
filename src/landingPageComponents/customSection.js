@@ -1,17 +1,15 @@
-// INSTRUCTIONS:
-// Change the CustomerSectionName to the name mentioned in the specification
-// Make sure you add any required headings or labels to ensure the section is properly understood by the user
-// Do not change the styling in the container div below.
-// Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
-// Text placeholders may only be one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
-// This includes all text strings, including those git which are part of complex objects.
-
-// STYLING:
-// - A header that explains the section should use typography variant h3
-// - Normal text content should use typography variant h2
-// - CardMedia should not have a fixed height - otherwise they get set too small
-// - Elements should attempt to fill as much horizontal width as possible
-// - Under no circumstances should you change any of the other styling in the template.
+// ASSERTIONS:
+// The component name is the name mentioned in the specification.
+// The component is self contained with no props required.
+// The styling of the original template has not been changed.
+// Text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
+// Text placeholders are only one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
+// There is a typography variant h3 at the top of the UI content you created that acts as a title
+// Standard text content uses typography variant h2
+// CardMedia components do not have a fixed height - otherwise they get set too small
+// Elements like TextFields are attempting to fill as much horizontal width as possible
+// Any images required are imported using the CreateReactApp standard method of import as shown below.
+// END ASSERTIONS
 
 // You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
 import { Typography } from "@mui/material";

@@ -1,9 +1,12 @@
-// Rules:
-// Adhere to the specification closely - paying attention to the filenames, names and parameters of any custom components.
+// ASSERTIONS:
+// All filenames and component names from the specification are correctly included.
 // The file should only contain a single component (App).
-// Any text strings should be replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
-// Text placeholders may only be one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
-// This includes all text strings, including those git which are part of complex objects.
+// Any text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
+// Text placeholders are only one level deep. {text.placeholderName.content} is correct, but {text.objectname.placeholderName.content} is not correct.
+// Any images required for this page have been included using the CreateReactApp standard import approach as shown below.
+// We are not attempting to pass any props to custom components
+// We are not attempting to use any components not mentioned in the definitions or new custom components section.
+// END ASSERTIONS
 
 // React imports
 
