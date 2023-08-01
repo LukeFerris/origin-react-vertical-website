@@ -31,7 +31,7 @@ export default function HeroStandard({
       <div>
         <Box
           sx={{
-            flexBasis: "50%",
+            flexBasis: "49%",
             marginLeft: { xs: "5vw", md: "0px" },
             marginRight: { xs: "5vw", md: "0px" },
             marginBottom: { xs: "5vw", md: "0px" },
@@ -53,7 +53,7 @@ export default function HeroStandard({
           <Typography variant="h2">{subHeading}</Typography>
         </Box>
       </div>
-      <div style={{ flexBasis: "50%" }}>
+      <div style={{ flexBasis: "49%" }}>
         <img
           src={screenMockUpSrc}
           width="100%"
