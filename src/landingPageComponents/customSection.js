@@ -24,8 +24,8 @@ import text from "../assets/text/text.json";
 // The only way images should be included is using the CreateReactApp approach, an example of which is shown below.
 // Always assume the images will be in ./assets/images
 // An example is:
-import horseStableImage from "./assets/images/horseStableImage.png";
-// They can then be used as sources like this: {horseStableImage}.
+// import imageName from "./assets/images/imageFileName.png";
+// They can then be used as sources like this: {imageName}.
 
 export default function CustomSectionName() {
   // you may add javascript here
