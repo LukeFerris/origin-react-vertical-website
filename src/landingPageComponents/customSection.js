@@ -3,7 +3,7 @@
 // The component is self contained with no props required.
 // The styling of the original template has not been changed
 // Content has only been added in the marked areas for javascript and the div marked for new UI content.
-// Any text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name. Not allowed, a placeholder with 4 parts: {text.objectname.placeholderName.content}
+// Any text strings have been replaced with a placeholder of the following format which always finished with .content: {text.placeHolderName.content} where placeholderName is a relevant name. Not allowed, a placeholder with 4 parts: {text.objectname.placeholderName.content}
 // There is a typography variant h3 at the top of the UI content you created that acts as a title.
 // Elements are not touching each other - they have margin separating them of 15px where required.
 // Standard text content uses typography variant h2
@@ -11,7 +11,7 @@
 // Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
 // Elements do not change size dependent on the content they contain.
 // If images are required (not compulsory), they are imported using the CreateReactApp standard method of import.
-// There are no missing algorithms or placeholders for logic: Make an attempt at the calculation.
+// There are no missing algorithms or placeholders for logic.
 // END RULES
 
 // You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
