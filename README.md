@@ -1,8 +1,17 @@
+// RULES:
+// The specification includes detail on all algorithms or logic required to fully implement the component.
+// New custom components have no props
+// There is a detailed sub specification for each new custom component.
+// Each new custom component has a sub specification containing the component name and fileName
+// Each new custom component is designed to have all UI, functionality and data included within the component
+// TrailingSignup is only suggested if HeroApp is in the specification
+// END RULES
+
 // To write a specification, choose which existing components you will use, which custom components (if any) you need to create and which order you will place the components.
 // Any functionality not available using existing components should be implemented as a single, self contained new custom component. This is because we currently have no way for components to safely communicate with each other.
 // Custom components are therefore forbidden from having input props - they must be entirely self sufficient.
-// You should include in this specification a detailed sub specification for each custom component you require of at least three paragraphs per custom components - including the name of the component and the fileName such that it can be properly imported
-// The specification should include all algorithms or logic required to fully implement the component.
+// You should include in this specification a detailed sub specification for each custom component you require of at least three paragraphs per custom components - including the name of the component and the fileName such that it can be properly imported.
+
 // The existing components are:
 // HeroApp: A hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of the page.
 // HeroStandard: A hero image, headline text and tag line. Perfect as an introduction to non landing page sites where no signup box is required.
@@ -14,5 +23,3 @@
 // DeployInputs:
 // - If HeroApp or TrailingSignup have been added to the specification then the following deployInput types should be added: Database.API.PostOnly and a deployInput of type: Database.Dynamo.Admin.SiteUrl.
 // - If HeroApp and TrailingSignup are not part of the specification, then no deployInputs should be added.
-// Layout rules:
-// Never use two components of the same type next to each other on the page (e.g. two FullBleedImage component should be separated by another component type like Headline)

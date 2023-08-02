@@ -7,7 +7,7 @@
 // There is a typography variant h3 at the top of the UI content you created that acts as a title.
 // Elements are not touching each other - they have margin separating them of 15px where required.
 // Standard text content uses typography variant h2
-// CardMedia components do not have a fixed height - otherwise they get set too small
+// If there are CardMedia components (not required), they do not have a fixed height - otherwise they get set too small
 // Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
 // Elements do not change size dependent on the content they contain.
 // If images are required (not compulsory), they are imported using the CreateReactApp standard method of import.
