@@ -42,7 +42,6 @@ export default function App() {
 
       {/* Add chosen components here */}
       {/* End content sections here */}
-
       {/* All pages have a Footer */}
       <Footer />
     </div>

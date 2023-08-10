@@ -25,7 +25,11 @@ export const theme = createTheme({
       fontFamily: "Red Hat Display",
     },
     body1: {
-      fontSize: "14px", // add this line to change font size of non-heading text
+      fontSize: "20px", // add this line to change font size of non-heading text
+      fontFamily: "Inter",
+    },
+    body: {
+      fontSize: "20px", // add this line to change font size of non-heading text
       fontFamily: "Inter",
     },
   },
