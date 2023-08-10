@@ -40,8 +40,8 @@ export const theme = createTheme({
     },
     secondary: {
       dark: "#eee",
-      main: "#fefefe",
-      light: "#FBFBFB",
+      main: "#3ABAB4",
+      light: "#FFF",
     },
   },
   components: {
@@ -115,7 +115,6 @@ export const theme = createTheme({
           textTransform: "capitalize",
           fontWeight: "500",
           fontFamily: "Inter",
-          color: "#FFF",
           fontSize: "16px",
         },
       },
