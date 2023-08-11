@@ -26,5 +26,5 @@
 // The sub specifications for each component contain all equations and algorithms required for a junior developer to be able to build the code. The junior developer has no access to anything other than the specification for the component.
 // Custom components have no props and this is called out in the specification explicity
 // Each component has a sub specification containing the component name and fileName
-// The TrailingSignup base component is only included if HeroApp base component is also in the specification
+// If the base component HeroApp is in the components list, the base component TrailingSignup should also be in the components list. If HeroApp is not in the component list, TrailingSignup should not be in the component list.
 // END RULES
