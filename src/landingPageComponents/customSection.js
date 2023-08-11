@@ -9,7 +9,7 @@
 // If there are CardMedia components (not required), they do not have a fixed height - otherwise they get set too small
 // Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
 // Elements do not change size dependent on the content they contain.
-// If images are required (not compulsory), they are imported using the CreateReactApp standard method of import.
+// If images are present on the page (images are not compulsory), they have been imported using the CreateReactApp standard method of import.
 // There are no missing algorithms or placeholders for logic.
 // END RULES
 
@@ -20,7 +20,7 @@ import { Typography } from "@mui/material";
 import text from "../assets/text/text.json";
 
 // images imports
-// The only way images should be included is using the CreateReactApp approach, an example of which is shown below.
+// If an image is present on the page, it should be imported using the CreateReactApp approach, an example of which is shown below.
 // Always assume the images will be in ./assets/images
 // An example is:
 // import imageName from "./assets/images/imageFileName.png";
