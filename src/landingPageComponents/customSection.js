@@ -13,6 +13,9 @@
 // There are no missing algorithms or placeholders for logic.
 // END RULES
 
+// Always worth including React
+import React, { useState } from "react";
+
 // You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
 import { Typography } from "@mui/material";
 
