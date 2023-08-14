@@ -4,7 +4,6 @@
 // Any text strings have been replaced with a placeholder of the following format which always finished with .content: {text.placeHolderName.content} where placeholderName is a relevant name. Not allowed, a placeholder with 4 parts: {text.objectname.placeholderName.content}
 // Any images present on the page have been included using the CreateReactApp standard import approach.
 // We are not attempting to pass any props to custom components
-// We are not attempting to use any components not mentioned in the definitions or components section.
 // END RULES
 
 // React imports
