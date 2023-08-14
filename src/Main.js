@@ -13,7 +13,7 @@ import React, { useState } from "react";
 
 // Gradient
 // Always include this component.
-import Gradient from "./landingPageComponents/BackgroundGradient";
+import Gradient from "./landingPageComponents/Gradient";
 
 // images imports
 // If images are included on the page, they should be imported using the CreateReactApp approach, an example of which is shown below.
