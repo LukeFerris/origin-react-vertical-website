@@ -34,7 +34,7 @@ import text from "assets/text/text.json";
 // - Importantly, all custom components will end up in ./landingPageComponents/ so all custom imports should assume the file is located there
 // - In comments above the import you should show example usage taking special note of the expected signature from the specification.
 
-export default function App() {
+export default function Main() {
   return (
     <div style={{ overflow: "hidden" }}>
       {/* All pages have Gradient */}
