@@ -12,7 +12,7 @@
 
 // Gradient
 // Always include this component.
-import Gradient from "./landingPageComponents/backgroundGradient";
+import Gradient from "./landingPageComponents/BackgroundGradient";
 
 // images imports
 // If images are included on the page, they should be imported using the CreateReactApp approach, an example of which is shown below.
@@ -24,7 +24,7 @@ import Gradient from "./landingPageComponents/backgroundGradient";
 // Footer
 // Always include this component
 // Parameters: None
-import Footer from "./landingPageComponents/footer";
+import Footer from "./landingPageComponents/Footer";
 
 // Always include this import
 import text from "assets/text/text.json";
