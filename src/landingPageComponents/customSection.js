@@ -3,9 +3,8 @@
 // There is a typography variant h3 at the top of the UI content you created that acts as a title.
 // Elements are not touching each other - they have margin separating them of 15px where required.
 // The component is self contained with no props required.
-// Any text strings have been replaced with a placeholder of the following format: {text.placeHolderName.content} where placeholderName is a relevant name.
-// No text placeholders have 4 parts, they should always have 3 parts. Common mistakes here involve adding the component name as a part: e.g. This is WRONG: {text.componentName.placeholderName.content}.
-// Text placeholders always finish with .content. e.g. {text.placeholderName.content}
+// Any text strings have been replaced with a placeholder of the following format which always finished with .content: {text.ComponentName.placeHolderName.content} where placeholderName is a relevant name
+// Each text string has a comment which describes the length and type of content to generate
 // If there are CardMedia components (not required), they do not have a fixed height - otherwise they get set too small
 // Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
 // Elements do not change size dependent on the content they contain.
