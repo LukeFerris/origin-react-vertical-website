@@ -8,7 +8,9 @@
 // Each text string has a comment which describes the length and type of content to generate
 // If there are CardMedia components (not required), they do not have a fixed height - otherwise they get set too small
 // Elements do not change size dependent on the content they contain.
-// Any images on the page (images are not compulsory) have been imported using the CreateReactApp standard method of import.
+// Image files are assumed to be generated files in the ./assets/images folder and therefore are not web urls containing http.
+// All images have alt tags that describe the type of content that needs to be generated
+// All input args for components are as specified in the specification
 // END RULES
 
 // Always worth including React
@@ -25,7 +27,6 @@ import text from "../assets/text/text.json";
 // Always assume the images will be in ./assets/images
 // An example is:
 // import imageName from "./assets/images/imageFileName.png";
-// They can then be used as sources like this: {imageName}.
 
 export default function CustomSectionName() {
   // you may add javascript here
