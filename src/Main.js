@@ -1,9 +1,10 @@
 // RULES:
 // All filenames and component names from the specification are correctly included.
-// The file should only contain a single component (App).
 // Any text strings have been replaced with a placeholder of the following format which always finished with .content: {text.Main.placeHolderName.content} where placeholderName is a relevant name
 // Each text string has a comment which describes the length and type of content to generate
 // Any images present on the page have been included using the CreateReactApp standard import approach.
+// Image files are assumed to be generated files in the ./assets/images folder.
+// All images have alt tags that describe the type of content that need to be generated
 // All input args for components are as specified in the specification
 // END RULES
 

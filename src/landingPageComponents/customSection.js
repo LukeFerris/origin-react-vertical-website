@@ -1,4 +1,5 @@
 // RULES:
+// There are no missing algorithms or placeholders for logic or UI. If the specification misses enough detai, fill in the blanks.
 // The component name is the name mentioned in the specification.
 // There is a typography variant h3 at the top of the UI content you created that acts as a title.
 // Elements are not touching each other - they have margin separating them of 15px where required.
@@ -6,10 +7,8 @@
 // Any text strings have been replaced with a placeholder of the following format which always finished with .content: {text.ComponentName.placeHolderName.content} where placeholderName is a relevant name
 // Each text string has a comment which describes the length and type of content to generate
 // If there are CardMedia components (not required), they do not have a fixed height - otherwise they get set too small
-// Elements like TextFields are attempting to fill as much horizontal width as possible within their containing elements.
 // Elements do not change size dependent on the content they contain.
 // Any images on the page (images are not compulsory) have been imported using the CreateReactApp standard method of import.
-// There are no missing algorithms or placeholders for logic.
 // END RULES
 
 // Always worth including React
