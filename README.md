@@ -81,30 +81,32 @@ Complete a specification for each component which is detailed enough for a junio
 // Parameters: None
 import Gradient from './landingPageComponents/Gradient';
 
-// FullBleedImage
-// A full page width image with no labelling, perfect for bringing products or features to life.
-// Parameters:
-// - imageAltTag: A highly descriptive image tag of between 10-30 words.
-// - imageComponent: An image component with dimensions width: 1600px height: 1000px
-import FullBleedImage from './landingPageComponents/FullBleedImage';
-
-// Headline
-// A headline and then a detailed text paragraph in one component.
-// Parameters:
-// - headline: The headline text 3-5 words.
-// - subText: A paragraph of descriptive text related to the headline between 15-30 words
-import Headline from './landingPageComponents/Headline';
-
-// TrailingSignup
-// An end of page signup box which should always be included only if HeroApp has also been included.
-// Parameters:
-// - buttonText: 1-3 word call to action
-import TrailingSignup from './landingPageComponents/TrailingSignup';
-
 // Footer
 // A footer section for the page - this is always included
 // Parameters: None
 import Footer from './landingPageComponents/Footer';
+
+// The container components are:
+// Main: The main page component which hosts the other components. It is a template which must be completed by adding the other components that you need. The template file is: src/Main.js and file name is always Main.js. It has no inputs.
+
+// The custom components are:
+// Custom: Customer components can be added to include other requirements. They should be based on the custom template found at: src/landingPageComponents/customSection.js
+
+// DeployInputs:
+// If HeroApp or TrailingSignup have been added to the specification then the following deployInput types should be added: Database.API.PostOnly and a deployInput of type: Database.Dynamo.Admin.SiteUrl.
+// If HeroApp and TrailingSignup are not part of the specification, then no deployInputs should be added.
+
+// RULES:
+// customComponents contains Main as this is a required customisable component. It has a fileName of Main.js
+// You have not added any base components to the customComponents list
+// Each custom piece of functionality is handled by a single new custom component containing all the UI, logic and data it requires. For example: Correct: One custom component containing UI and logic is correct. Wrong: One custom component for UI and another separate component for output.
+// baseComponents have specifications that detail the input arguments to be used including the name of the input arguments
+// Functionality already provided by the base components is not replicated in custom components.
+// The specifications is sufficient for a junior developer to be able to build the code. The junior developer has no access to anything other than the specification. For example, any algorithms or equations required should be detailed in a step by step list.
+// Custom components have no props and this is called out in the specification explicity
+// Each custom component has a sub specification containing the component name and fileName
+// If the base component HeroApp is in the baseComponents list, the base component TrailingSignup should also be in the baseComponents list. If HeroApp is not in the baseComponents list, TrailingSignup should not be in the baseComponents list.
+// END RULES
 
 // HeroApp
 // Importantly, HeroApp should only be used when an email sign up function has been explicitly requested for a marketing landing page. It should not be used for general bespoke websites. Do not use this component in the specification unless the goal is explicitly a marketing landing page and explicitly requires an email sign up requested by the user. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of a container component. It is not stand alone. It has a hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box.
@@ -128,24 +130,22 @@ import HeroApp from './landingPageComponents/HeroApp';
 // - imageAltTag: Detailed alt text for the image, should contain the keywords '4K photo shoot'
 import HeroStandard from './landingPageComponents/HeroStandard';
 
-// The container components are:
-// Main: The main page component which hosts the other components. It is a template which must be completed by adding the other components that you need. The template file is: src/Main.js and file name is always Main.js. It has no inputs.
+// TrailingSignup
+// An end of page signup box which should always be included only if HeroApp has also been included.
+// Parameters:
+// - buttonText: 1-3 word call to action
+import TrailingSignup from './landingPageComponents/TrailingSignup';
 
-// The custom components are:
-// Custom: Customer components can be added to include other requirements. They should be based on the custom template found at: src/landingPageComponents/customSection.js
+// Headline
+// A headline and then a detailed text paragraph in one component.
+// Parameters:
+// - headline: The headline text 3-5 words.
+// - subText: A paragraph of descriptive text related to the headline between 15-30 words
+import Headline from './landingPageComponents/Headline';
 
-// DeployInputs:
-// If HeroApp or TrailingSignup have been added to the specification then the following deployInput types should be added: Database.API.PostOnly and a deployInput of type: Database.Dynamo.Admin.SiteUrl.
-// If HeroApp and TrailingSignup are not part of the specification, then no deployInputs should be added.
-
-// RULES:
-// customComponents contains Main as this is a required customisable component. It has a fileName of Main.js
-// You have not added any base components to the customComponents list
-// Each custom piece of functionality is handled by a single new custom component containing all the UI, logic and data it requires. For example: Correct: One custom component containing UI and logic is correct. Wrong: One custom component for UI and another separate component for output.
-// baseComponents have specifications that detail the input arguments to be used including the name of the input arguments
-// Functionality already provided by the base components is not replicated in custom components.
-// The specifications is sufficient for a junior developer to be able to build the code. The junior developer has no access to anything other than the specification. For example, any algorithms or equations required should be detailed in a step by step list.
-// Custom components have no props and this is called out in the specification explicity
-// Each custom component has a sub specification containing the component name and fileName
-// If the base component HeroApp is in the baseComponents list, the base component TrailingSignup should also be in the baseComponents list. If HeroApp is not in the baseComponents list, TrailingSignup should not be in the baseComponents list.
-// END RULES
+// FullBleedImage
+// A full page width image with no labelling, perfect for bringing products or features to life.
+// Parameters:
+// - imageAltTag: A highly descriptive image tag of between 10-30 words.
+// - imageComponent: An image component with dimensions width: 1600px height: 1000px
+import FullBleedImage from './landingPageComponents/FullBleedImage';
