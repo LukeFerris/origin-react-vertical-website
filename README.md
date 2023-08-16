@@ -107,7 +107,7 @@ import TrailingSignup from './landingPageComponents/TrailingSignup';
 import Footer from './landingPageComponents/Footer';
 
 // HeroApp
-// Only included when an email sign up function has been explicitly requested. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of the page. It has a hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box.
+// Importantly, HeroApp should only be used when an email sign up function has been explicitly requested for a marketing landing page. It should not be used for general bespoke websites. Do not use this component in the specification unless the goal is explicitly a marketing landing page and explicitly requires an email sign up requested by the user. This component is perfect for landing / marketing pages requiring a sign up and must be placed at the top of a container component. It is not stand alone. It has a hero image, a headline text, tag line and three point bullet list of key features. There is also an email sign up box.
 // Parameters:
 // - mainHeading: 1-4 words
 // - subHeading: 10-15 words that act as a product tagline.

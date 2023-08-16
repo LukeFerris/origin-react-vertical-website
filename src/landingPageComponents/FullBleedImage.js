@@ -1,4 +1,4 @@
-export default function FullBleedImage({ imageSrc }) {
+export default function FullBleedImage({ imageComponent }) {
   return (
     <div
       style={{
@@ -16,7 +16,7 @@ export default function FullBleedImage({ imageSrc }) {
           objectFit: "cover",
         }}
         alt="[Alt tag for 4K photo shoot of product being used in real life]"
-        src={imageSrc}
+        src={imageComponent}
         width="1600px"
         height="900px"
       />

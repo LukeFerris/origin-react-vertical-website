@@ -10,7 +10,7 @@ export default function HeroApp({
   keyFeature1,
   keyFeature2,
   keyFeature3,
-  screenMockUpSrc,
+  imageComponent,
   imageAltTag,
   buttonText,
 }) {
@@ -71,7 +71,7 @@ export default function HeroApp({
         }}
       ></Box>
       <IPhoneMockup
-        screenMockUpSrc={screenMockUpSrc}
+        screenMockUpSrc={imageComponent}
         imageAltTag={imageAltTag}
       />
       <Box
