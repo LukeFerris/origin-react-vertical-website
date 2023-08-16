@@ -4,13 +4,8 @@
 // There is a typography variant h3 at the top of the UI content you created that acts as a title.
 // Elements are not touching each other - they have margin separating them of 15px where required.
 // The component is self contained with no props required.
-// Any text strings have been replaced with a placeholder of the following format which always finished with .content: {text.ComponentName.placeHolderName.content} where placeholderName is a relevant name
-// Each text string has a comment which describes the length and type of content to generate
 // If there are CardMedia components (not required), they do not have a fixed height - otherwise they get set too small
 // Elements do not change size dependent on the content they contain.
-// Image files are assumed to be generated files in the ./assets/images folder and therefore are not web urls containing http.
-// All images have alt tags that describe the type of content that needs to be generated
-// All input args for components are as specified in the specification
 // END RULES
 
 // Always worth including React
