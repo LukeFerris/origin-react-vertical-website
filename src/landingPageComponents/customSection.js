@@ -15,7 +15,8 @@ import React, { useState } from "react";
 import { Typography } from "@mui/material";
 
 // Always include this import
-import text from "../assets/text/text.json";
+// Never remove it, it is required for text processing
+import text from "assets/text/text.json";
 
 // images imports
 // If an image is present on the page, it should be imported using the CreateReactApp approach, an example of which is shown below.

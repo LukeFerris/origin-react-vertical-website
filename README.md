@@ -120,7 +120,7 @@ import Footer from './landingPageComponents/Footer';
 import HeroApp from './landingPageComponents/HeroApp';
 
 // HeroStandard
-// A hero image, headline text and tag line. Perfect as an introduction to non landing page sites where no signup box is required.
+// A hero image, headline text and tag line. Perfect as an introduction to non landing page sites where no signup box is required. Should appear at the top of the container component.
 // Parameters:
 // - mainHeading: 1-4 words
 // - subHeading: 30-50 words that act as a page description.
