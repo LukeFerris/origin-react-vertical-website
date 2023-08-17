@@ -1,5 +1,6 @@
 // RULES:
 // There are no placeholders for missing logic or UI. The code is fully functional to meet the specification without further work.
+// All acceptance criteria mentioned in the specification are met
 // The component name is the name mentioned in the specification.
 // Elements are not touching each other - they have margin separating them of 15px where required.
 // The component is self contained with no props required.
