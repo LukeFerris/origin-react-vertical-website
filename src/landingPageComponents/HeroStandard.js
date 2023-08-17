@@ -4,7 +4,7 @@ import { Box, List, Typography } from "@mui/material";
 export default function HeroStandard({
   mainHeading,
   subHeading,
-  imageComponent,
+  imageSrc,
   imageAltTag,
 }) {
   return (
@@ -54,12 +54,7 @@ export default function HeroStandard({
         </Box>
       </div>
       <div style={{ flexBasis: "49%" }}>
-        <img
-          src={imageComponent}
-          width="100%"
-          height="100%"
-          alt={imageAltTag}
-        />
+        <img src={imageSrc} width="100%" height="100%" alt={imageAltTag} />
       </div>
       <Box
         sx={{

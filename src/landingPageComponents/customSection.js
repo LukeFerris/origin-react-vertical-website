@@ -1,7 +1,6 @@
 // RULES:
-// There are no missing algorithms or placeholders for logic or UI. If the specification misses enough detai, fill in the blanks.
+// There are no placeholders for missing logic or UI. The code is fully functional to meet the specification without further work.
 // The component name is the name mentioned in the specification.
-// There is a typography variant h3 at the top of the UI content you created that acts as a title.
 // Elements are not touching each other - they have margin separating them of 15px where required.
 // The component is self contained with no props required.
 // If there are CardMedia components (not required), they do not have a fixed height - otherwise they get set too small
@@ -41,10 +40,7 @@ export default function CustomSectionName() {
     >
       {/* This div makes the left hand border and should remain */}
       <div style={{ flexBasis: "30vw", minWidth: "5vw" }}></div>
-      <div>
-        {/* You may only add UI content within this div */}
-        <Typography variant="h3">A title goes here</Typography>
-      </div>
+      <div>{/* You may only add UI content within this div */}</div>
       {/* This div makes the right hand border and should remain */}
       <div style={{ flexBasis: "30vw", minWidth: "5vw" }}></div>
     </div>
