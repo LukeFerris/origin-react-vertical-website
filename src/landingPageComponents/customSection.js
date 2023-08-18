@@ -11,9 +11,6 @@
 // Always worth including React
 import React, { useState } from "react";
 
-// You can assume Material UI (MUI) components and anything present as standard in CreateReactApp
-import { Typography } from "@mui/material";
-
 // Always include this import
 // Never remove it, it is required for text processing
 import text from "assets/text/text.json";
