@@ -4,9 +4,10 @@
 // END RULES
 
 // React imports
-import React, { useState } from "react";
+import React from "react";
 
 // Project imports
+import HoldingPage from "landingPageComponents/HoldingPage";
 
 // Gradient
 // Always include this component.
@@ -32,13 +33,8 @@ import text from "assets/text/text.json";
 export default function Main() {
   return (
     <div style={{ overflow: "hidden" }}>
-      {/* All pages have Gradient */}
-      <Gradient />
-
-      {/* Add chosen components here */}
-      {/* End content sections here */}
-      {/* All pages have a Footer */}
-      <Footer />
+      {/* Initial holding page content, this should be replaced. */}
+      <HoldingPage />
     </div>
   );
 }
