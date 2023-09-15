@@ -9,6 +9,12 @@ Marketing landing pages should have Gradient, Footer, HeroApp, one or more Headl
 // Example Import
 // import Gradient from './landingPageComponents/Gradient';
 
+//// HoldingPage
+// Only used as a holding page before a new specification is created. You should not use this component.
+// Parameters: None
+// Example Import
+// import HoldingPage from './landingPageComponents/HoldingPage';
+
 //// Footer
 // A footer section for the page - this is always included
 // Parameters: None
@@ -64,9 +70,9 @@ Marketing landing pages should have Gradient, Footer, HeroApp, one or more Headl
 
 ////// Container components
 //// Main
-// The main page component which hosts the other components. It is a template which must be completed by adding the other components that you need. The template file is: src/Main.js and file name is always Main.js.
+// The main page component which hosts the other components. It is a template which must be completed by adding the other components that you need. The template file is: src/Main.jsx and file name is always Main.jss.
 // Parameters: None
 
 ////// Custom components
 //// Custom
-// Customer components can be added to include other requirements. They should be based on the custom template found at: src/landingPageComponents/customSection.js
+// Customer components can be added to include other requirements. They should be based on the custom template found at: src/landingPageComponents/customSection.jsx
