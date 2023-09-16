@@ -1,4 +1,4 @@
-import videoSrc from "../assets/Logo.webm";
+import videoSrc from "@/assets/Logo.webm";
 
 export default function HoldingPage() {
   return (

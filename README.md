@@ -70,7 +70,7 @@ Marketing landing pages should have Gradient, Footer, HeroApp, one or more Headl
 
 ////// Container components
 //// Main
-// The main page component which hosts the other components. It is a template which must be completed by adding the other components that you need. The template file is: src/Main.jsx and file name is always Main.jss.
+// The main page component which hosts the other components. It is a template which must be completed by adding the other components that you need. The template file is: src/Main.jsx and file name is always Main.jsx.
 // Parameters: None
 
 ////// Custom components

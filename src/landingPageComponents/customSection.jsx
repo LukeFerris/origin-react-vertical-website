@@ -8,13 +8,13 @@ import React, { useState } from "react";
 
 // Always include this import
 // Never remove it, it is required for text processing
-import text from "assets/text/text.json";
+import text from "@/assets/text/text.json";
 
 // images imports
 // If an image is present on the page, it should be imported using the CreateReactApp approach, an example of which is shown below.
-// Always assume the images will be in ./assets/images
+// Always assume the images will be in @/assets/images
 // An example is:
-// import imageName from "./assets/images/imageFileName.png";
+// import imageName from "@/assets/images/imageFileName.png";
 
 export default function CustomSectionName() {
   // you may add javascript here
