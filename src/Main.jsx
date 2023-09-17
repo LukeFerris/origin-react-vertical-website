@@ -14,7 +14,7 @@ import HoldingPage from "landingPageComponents/HoldingPage";
 import Gradient from "./landingPageComponents/Gradient";
 
 // image component imports go here
-// Always assume the images will be in ./assets/images
+// Always assume the images will be in @/assets/images
 // An example is:
 // import imageName from "@/assets/images/imageFileName.png";
 
