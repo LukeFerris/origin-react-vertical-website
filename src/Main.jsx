@@ -1,6 +1,6 @@
 // RULES:
 // All filenames and component names from the specification are correctly included.
-// All input args for components are as specified in the specification
+// All input props for components are as specified in the specification
 // END RULES
 
 // React imports
