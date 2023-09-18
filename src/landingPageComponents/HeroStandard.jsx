@@ -28,7 +28,7 @@ export default function HeroStandard({
           minWidth: { xs: "", md: "5vw" },
         }}
       ></Box>
-      <div>
+      <div style={{ maxWidth: "50%" }}>
         <Box
           sx={{
             flexBasis: "49%",
